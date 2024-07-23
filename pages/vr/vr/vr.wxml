@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="vrbuttonlist">
+  <view style="font-size: 0;">
+    <view class="vrview vr1">
+      <image class="vrimg vr1" mode="aspectFill" src="https://cdn.sysusos.shaunking.cn/src/pages/DJI_0134.JPG" bind:tap="jump2vr_1"></image>
+      <text></text>
+    </view>
+    <view class="vrview vr2">
+      <image class="vrimg vr2" mode="aspectFill" src="https://cdn.sysusos.shaunking.cn/src/pages/DJI_0134.JPG" bind:tap="jump2vr_2"></image>
+    </view>
+  </view>
+
+  <view class="logoblock" style="margin-bottom: 20rpx;">
+    <view class="logosubblock">
+      <image class="logoileft" mode="aspectFit" src="https://cdn.sysusos.shaunking.cn/src/logo/%E5%9B%A2%E5%A7%94%E5%9B%A2%E5%BE%BDnormal.png"></image>
+      <image class="logoicenter" mode="aspectFit" src="https://cdn.sysusos.shaunking.cn/src/logo/%E5%B9%BF%E4%B8%9C%E9%9D%92%E5%B9%B4%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%99%BE%E5%8D%83%E4%B8%87%E5%B7%A5%E7%A8%8B%E7%AA%81%E5%87%BB%E9%98%9Fnormal.png"></image>
+      <image class="logoiright" mode="aspectFit" src="https://cdn.sysusos.shaunking.cn/src/logo/%E7%90%86%E5%AD%A6%E9%99%A2normal.png"></image>
+    </view>
+  </view>
+</view>

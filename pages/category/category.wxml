@@ -1,0 +1,30 @@
+<!--pages/category/category.wxml-->
+<view class="section section-features">
+  <view class="section-content is-flex center-xs">
+    <view class="feature-list is-flex direction-vert middle-xs">
+      <block wx:for="{{category}}" wx:key="id">
+        <view bindtap='bindCateByID' id="{{item.id}}" class="feature-card card-type-life">
+          <view class="card-cover" style='background-image:url({{item.cover}});background-repeat:no-repeat;background-position:center;'></view>
+          <view data-jarallax-element="-80" class="card-main is-flex direction-vert between-xs parallax">
+            <view class="card-top">
+              <view class="card-title">{{item.name}}</view>
+              <view class="card-content">
+                <text>{{item.description}}</text>
+              </view>
+            </view>
+            <view class="card-actions is-flex end-xs">
+              <view class="action-item is-flex middle-xs">了解更多
+                <view class="img-icon img-icon-arrow-right theme-black" style="background-image: url('http://ssupload.qingmang.mobi/qingmang-website/static/images/arrow-right.eb5cba0.svg')"></view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class="logoblock">
+    <image class="logoleft" mode="aspectFit" src="https://cdn.sysusos.shaunking.cn/src/logo/%E5%9B%A2%E5%A7%94%E5%9B%A2%E5%BE%BDnormal.png"></image>
+    <image class="logocenter" mode="aspectFit" src="https://cdn.sysusos.shaunking.cn/src/logo/%E5%B9%BF%E4%B8%9C%E9%9D%92%E5%B9%B4%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%99%BE%E5%8D%83%E4%B8%87%E5%B7%A5%E7%A8%8B%E7%AA%81%E5%87%BB%E9%98%9Fnormal.png"></image>
+    <image class="logoright" mode="aspectFit" src="https://cdn.sysusos.shaunking.cn/src/logo/%E7%90%86%E5%AD%A6%E9%99%A2normal.png"></image>
+  </view>
+</view>

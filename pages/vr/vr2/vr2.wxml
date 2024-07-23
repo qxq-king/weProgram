@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+  <!--
+  -->
+    <web-view style="border-style:none;" src="https://69dm716lczv.720yun.com/vr/ef2jz7hwkv6">
+    </web-view>
+  </view>
+</scroll-view>
